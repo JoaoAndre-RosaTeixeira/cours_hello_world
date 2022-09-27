@@ -15,5 +15,4 @@ class Intro:
 
 
 intro: Intro = Intro()
-
 intro.print_hello('Joao')
