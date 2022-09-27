@@ -13,5 +13,6 @@ class Intro:
     def print_hello(self, name):
         print(f'{self.hello} {self.people.name}, Bonne journée {name}.')
 
+
 intro: Intro = Intro()
 intro.print_hello('Joao')
